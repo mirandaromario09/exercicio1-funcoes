@@ -1,23 +1,19 @@
-# Estudo de PHP - Estruturas condicionais e lógica de pedido
+# Estudo de PHP - Funções e cálculo de imposto
 
-Exercício pra praticar estruturas condicionais (`if`, `else if`, `else`) e operadores lógicos simulando um sistema de cálculo de pedido com descontos e taxa de entrega.
+Exercício pra praticar criação de funções em PHP e estruturas condicionais simulando o cálculo do Imposto de Renda.
 
 ## Conceitos estudados
 
-- **Estruturas condicionais** — `if`, `else if`, `else` pra controlar o fluxo do programa
-- **Operadores lógicos** — `&&` (AND) pra combinar múltiplas condições (ex: cliente ativo E quer entrega)
-- **Comparação** — `==` pra verificar igualdade, `<` pra verificar se houve desconto
-- **Variáveis booleanas** — uso de `true` e `false` pra representar estados (cliente ativo, assinante do clube, cupom ativo)
-- **Cálculos condicionais** — aplicar descontos e taxas baseado em condições diferentes
-- **Exibição condicional** — mostrar mensagens diferentes na tela conforme o resultado das condições
+- **Funções** — declarar funções com `function`, passar parâmetros e usar `return`
+- **Retorno de valores** — usar `return` pra devolver o resultado da função
 
 ## Lógica do exercício
 
-- Cliente inativo → pedido zerado
-- Assinante do clube → 25% de desconto no pedido
-- Cupom ativo → 10% de desconto no pedido
-- Cliente ativo que quer entrega → taxa de entrega aplicada
-- Verificação final se houve desconto e/ou taxa de entrega
+- Salário até R$ 1.903,98 → isento
+- Salário entre R$ 1.903,99 e R$ 2.826,65 → alíquota de 7,5%
+- Salário entre R$ 2.826,66 e R$ 3.751,05 → alíquota de 15%
+- Salário entre R$ 3.751,06 e R$ 4.664,68 → alíquota de 22,5%
+- Salário acima de R$ 4.664,68 → alíquota de 27,5%
 
 ## Arquivos
 
